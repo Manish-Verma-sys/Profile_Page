@@ -1,0 +1,21 @@
+DROP YOUR FILES IN THIS "assets" FOLDER
+=========================================
+
+The website links to the files below by these EXACT names. Copy the files you
+already uploaded into this folder and match the names precisely (names are
+case-sensitive and spaces matter).
+
+REQUIRED
+  profile.jpg                 <- your headshot (rename the photo you uploaded to this)
+  Manish_Verma_Resume.pdf     <- your resume
+
+WORK SAMPLES (shown as download cards on the site)
+  Tech_Insights.pdf
+  Tech Forecast.pdf
+  Slime Mold.pdf
+  Injector.pdf
+  Harvard Certificate.pdf
+
+Notes:
+- You can delete this .txt file once your PDFs are in place.
+- If you rename a file, update the matching link in index.html too.

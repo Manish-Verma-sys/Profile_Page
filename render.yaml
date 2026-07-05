@@ -1,0 +1,16 @@
+services:
+  - type: web
+    name: manish-verma-portfolio
+    runtime: static
+    # Repo root contains index.html, so publish from "."
+    staticPublishPath: .
+    pullRequestPreviewsEnabled: false
+    headers:
+      - path: /*
+        name: X-Frame-Options
+        value: SAMEORIGIN
+    routes:
+      # Serve index.html for any unknown path (nice for a single-page site)
+      - type: rewrite
+        source: /*
+        destination: /index.html
